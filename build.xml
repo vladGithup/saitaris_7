@@ -15,7 +15,7 @@
     </target>
 
     <target name="run" depends="compile">
-        <java classname="com.example.HelloWorld" fork="true" classpath="${classes.dir}"/>
+        <java classname="com.example.HelloWord" fork="true" classpath="${classes.dir}"/>
     </target>
 
     <target name="jar" depends="compile">
